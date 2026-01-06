@@ -1,67 +1,39 @@
-The Discrete Dungeon: Syllabus Quest (Final Edition)
+# The Discrete Dungeon: Syllabus Quest (Final Edition)
 
-Course: CSC101 Discrete Mathematics 
+**Course:** CSC101 Discrete Mathematics  
+[cite_start]**Institution:** University of Engineering and Technology (UET), Lahore [cite: 5, 6]  
+[cite_start]**Teacher:** Mr. Waqas Ali [cite: 15]
 
+## 1. Project Description
+[cite_start]**The Discrete Dungeon** is a C++ console-based educational game designed to reinforce primary discrete mathematics concepts[cite: 37, 38]. [cite_start]The game features five "Tracks" that act as dungeon levels, requiring players to solve mathematical puzzles to progress[cite: 29].
 
-Institution: University of Engineering and Technology (UET), Lahore 
+## 2. Mathematical Tracks Included
+[cite_start]The game is structured according to the following syllabus tracks[cite: 30]:
+* [cite_start]**Track 1: Foundations of Logic** – Truth tables, contrapositives, and argument validity[cite: 31].
+* [cite_start]**Track 2: Discrete Structures** – Set operations and Power Set cardinality[cite: 32].
+* [cite_start]**Track 3: Algorithm Design & Analysis** – Binary search logic and Big-O time complexity[cite: 33].
+* [cite_start]**Track 4: Number Theory Applications** – Modular arithmetic and Caesar Cipher cryptography[cite: 35].
+* [cite_start]**Track 5: Counting & Combinatorics** – Product rule and the Pigeonhole Principle[cite: 36].
 
+## 3. Installation Instructions
+1. **Clone the Repository:**
+   [cite_start]`git clone https://github.com/Behzad3487/Discrete-Dungeon-Project` 
+2. [cite_start]**Compile:** Use a standard C++ compiler[cite: 50, 55].
+   `g++ src/Project.cpp -o DungeonQuest`
+3. **Run:**
+   `./DungeonQuest`
 
-Teacher: Mr. Waqas Ali 
+## 4. Usage Examples
+* [cite_start]**Navigation:** Use numeric keys (1-5) to select a track[cite: 110].
+* [cite_start]**Unlocking:** Tracks open sequentially; you must clear the previous level to proceed[cite: 113].
+* [cite_start]**Winning:** Answer at least 2 questions correctly per track to clear it[cite: 121].
 
-1. Project Description
+## 5. Dependencies
+* [cite_start]**Language:** C++17[cite: 50].
+* [cite_start]**System:** Windows OS (required for `<windows.h>` colors and effects)[cite: 55].
+* [cite_start]**Compiler:** MinGW or GCC[cite: 55].
 
-The Discrete Dungeon is a professional C++ console-based educational game designed to reinforce the primary discrete mathematics concepts studied in the CSC101 curriculum. The game features five distinct "Tracks" that act as dungeon levels, each requiring the player to solve mathematical puzzles to progress.
-+1
-
-2. Mathematical Tracks Included
-The game is structured according to the following syllabus tracks:
-
-Track 1: Foundations of Logic – Truth tables, contrapositives, and argument validity.
-
-Track 2: Discrete Structures – Set operations (Intersection/Union) and Power Set cardinality.
-
-Track 3: Algorithm Design & Analysis – Binary search logic and Big-O time complexity.
-
-Track 4: Number Theory Applications – Modular arithmetic and Caesar Cipher cryptography.
-
-Track 5: Counting & Combinatorics – Product rule, combinations, and the Pigeonhole Principle.
-
-3. Installation Instructions
-Clone the Repository:
-
-Bash
-
-git clone https://github.com/[your-username]/[your-repo-name].git
-Compile: Use any standard C++ compiler (GCC/MinGW).
-
-Bash
-
-g++ src/Project.cpp -o DungeonQuest
-Run:
-
-Bash
-
-./DungeonQuest
-4. Usage Examples
-Navigation: Use the numeric keypad (1-5) to select a track from the main menu.
-
-Unlocking: A track only becomes [OPEN] once the previous track has been [CLEARED].
-
-
-Winning: You must answer at least 2 questions correctly per track to clear it.
-
-5. Dependencies
-
-Language: C++17.
-
-System: Windows OS (specifically required for <windows.h> and SetConsoleTextAttribute for colors and typing effects).
-
-
-Compiler: MinGW or any GCC-based compiler.
-
-6. Project Structure
-src/: Contains the main source code (Project.cpp).
-
-test/: Contains test_cases.txt documenting logic verification.
-
-data/: Contains syllabus_metadata.txt mapping game levels to course topics.
+## 6. Project Structure
+* `src/`: Contains the source code (`Project.cpp`).
+* [cite_start]`test/`: Documents logic verification[cite: 117].
+* [cite_start]`data/`: Maps game levels to course topics[cite: 58].
