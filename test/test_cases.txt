@@ -1,0 +1,20 @@
+UET Lahore - CSC101 Discrete Mathematics
+Project: Discrete Dungeon - Test Case Log
+
+Test Case 1: Logic & Arguments (Track 1)
+- Input: Choice 1 (MCQ), Answer: 2
+- Expected Output: "Correct", Score +10
+- Logic: Valid arguments are defined by the conclusion following from premises.
+- Status: Pass
+
+Test Case 2: Sets & Venn Diagrams (Track 2)
+- Input: Choice 3 (Numeric), Answer: 14
+- Expected Output: "Correct", Score +15
+- Logic: Principle of Inclusion-Exclusion: 10 + 6 - 2 = 14.
+- Status: Pass
+
+Test Case 3: Algorithms (Track 3)
+- Input: Choice 2 (MCQ), Answer: 1 (Incorrect)
+- Expected Output: "Wrong", Life -1
+- Logic: Binary search is O(log n), not O(n).
+- Status: Pass
