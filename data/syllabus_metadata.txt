@@ -1,0 +1,5 @@
+Track 1: Foundations of Logic (Validity, Contrapositives, Truth Tables)
+Track 2: Discrete Structures (Power Sets, Venn Diagrams, Inclusion-Exclusion)
+Track 3: Algorithm Design (Binary Search Complexity, Comparison limits)
+Track 4: Number Theory (Modular Arithmetic, Cryptography/Ciphers)
+Track 5: Counting & Combinatorics (Product Rule, Pigeonhole Principle)
